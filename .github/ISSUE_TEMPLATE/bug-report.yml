@@ -1,0 +1,96 @@
+name: Bug report
+description: Report a reproducible problem in an openFA preview build.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for testing openFA. Please search existing issues before submitting a report.
+
+        Do not upload copyrighted files or assets from Fragile Allegiance. Logs, screenshots of openFA, and save files created by openFA are welcome when they help reproduce the problem.
+
+  - type: input
+    id: build_version
+    attributes:
+      label: Preview build version
+      description: Enter the version displayed by openFA or included in the release name.
+      placeholder: "0.259.1"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: operating_system
+    attributes:
+      label: Operating system
+      options:
+        - Windows 11
+        - Windows 10
+        - Other or unsupported
+    validations:
+      required: true
+
+  - type: dropdown
+    id: package_type
+    attributes:
+      label: Package type
+      description: Select the package variant you downloaded, if known.
+      options:
+        - Self-contained win-x64
+        - Framework-dependent win-x64
+        - Unknown
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Provide the smallest sequence of actions that reliably demonstrates the problem.
+      placeholder: |
+        1. Start openFA...
+        2. Open...
+        3. Select...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected_behavior
+    attributes:
+      label: Expected behavior
+      description: Describe what you expected openFA to do.
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual_behavior
+    attributes:
+      label: Actual behavior
+      description: Describe what happened instead, including any visible error message.
+    validations:
+      required: true
+
+  - type: textarea
+    id: diagnostic_information
+    attributes:
+      label: Logs and supporting information
+      description: Paste relevant log excerpts. Remove personal information and local paths when appropriate.
+      render: text
+
+  - type: upload
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Attach screenshots that show the problem. Do not attach original Fragile Allegiance files or extracted assets.
+    validations:
+      required: false
+      accept: ".png,.jpg,.jpeg,.gif,.webp"
+
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmation
+      options:
+        - label: I searched existing issues for the same problem.
+          required: true
+        - label: I have not attached original Fragile Allegiance game files or assets.
+          required: true

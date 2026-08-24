@@ -1,0 +1,89 @@
+name: Legacy fidelity difference
+description: Report behavior or presentation that differs from the original Fragile Allegiance.
+title: "[Legacy difference]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form when reconstructed openFA behavior or presentation differs from the original Fragile Allegiance.
+
+        Evidence is especially useful, but do not upload copyrighted original game files or extracted assets. Screenshots or short recordings showing observed behavior are acceptable when you have the right to share them.
+
+  - type: input
+    id: build_version
+    attributes:
+      label: Preview build version
+      description: Enter the version displayed by openFA or included in the release name.
+      placeholder: "0.259.1"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Affected area
+      options:
+        - User interface or rendering
+        - Simulation or game rules
+        - Input or navigation
+        - Audio or video
+        - Save or load behavior
+        - Timing or animation
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: openfa_behavior
+    attributes:
+      label: Behavior in openFA
+      description: Describe exactly what the preview build does.
+    validations:
+      required: true
+
+  - type: textarea
+    id: original_behavior
+    attributes:
+      label: Behavior in the original game
+      description: Describe exactly how Fragile Allegiance behaves in the same situation.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction scenario
+      description: Explain how to reach the same state in openFA and, when known, in the original game.
+      placeholder: |
+        1. Start...
+        2. Load or create...
+        3. Perform...
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Supporting evidence
+      description: Describe or attach screenshots, recordings, save files, manual references, or other observations that support the comparison.
+
+  - type: upload
+    id: screenshots
+    attributes:
+      label: Comparison screenshots
+      description: Attach screenshots showing the difference when you have the right to share them. Do not attach original game files or extracted assets.
+    validations:
+      required: false
+      accept: ".png,.jpg,.jpeg,.gif,.webp"
+
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmation
+      options:
+        - label: I searched existing issues for the same difference.
+          required: true
+        - label: I have clearly separated observed behavior from assumptions or recollection.
+          required: true
+        - label: I have not attached original Fragile Allegiance game files or extracted assets.
+          required: true

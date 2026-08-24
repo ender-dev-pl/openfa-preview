@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: openFA documentation
+    url: https://ender-dev-pl.github.io/openfa-docs/
+    about: Read the project documentation, reconstruction notes, and current implementation status.
+  - name: Preview releases
+    url: https://github.com/ender-dev-pl/openfa-preview/releases
+    about: Download the latest preview build and review its release notes before reporting a problem.
