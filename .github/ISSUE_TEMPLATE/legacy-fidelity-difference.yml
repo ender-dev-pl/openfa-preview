@@ -67,6 +67,15 @@ body:
       label: Supporting evidence
       description: Describe or attach screenshots, recordings, save files, manual references, or other observations that support the comparison.
 
+  - type: upload
+    id: screenshots
+    attributes:
+      label: Comparison screenshots
+      description: Attach screenshots showing the difference when you have the right to share them. Do not attach original game files or extracted assets.
+    validations:
+      required: false
+      accept: ".png,.jpg,.jpeg,.gif,.webp"
+
   - type: checkboxes
     id: confirmations
     attributes:

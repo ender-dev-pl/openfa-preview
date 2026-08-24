@@ -73,8 +73,17 @@ body:
     id: diagnostic_information
     attributes:
       label: Logs and supporting information
-      description: Paste relevant log excerpts or attach openFA screenshots and save files. Remove personal information and local paths when appropriate.
+      description: Paste relevant log excerpts. Remove personal information and local paths when appropriate.
       render: text
+
+  - type: upload
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Attach screenshots that show the problem. Do not attach original Fragile Allegiance files or extracted assets.
+    validations:
+      required: false
+      accept: ".png,.jpg,.jpeg,.gif,.webp"
 
   - type: checkboxes
     id: confirmations
