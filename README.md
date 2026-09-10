@@ -13,6 +13,7 @@ It is used to:
 - publish development and nightly builds,
 - collect bug reports,
 - collect reports about differences from the original *Fragile Allegiance*,
+- collect ideas for mods and improvements,
 - gather feedback from people testing the current implementation.
 
 The source repository is currently private while the initial reconstruction milestones are being completed. The project is intended to be made public afterwards.
@@ -58,6 +59,12 @@ Please use the **Issues** section of this repository to report:
 When reporting a problem, please include the preview build version and enough information to reproduce it.
 
 For differences from the original game, screenshots, recordings, save files, or a description of how *Fragile Allegiance* behaves in the same situation can be especially useful.
+
+## Suggesting mods and improvements
+
+Use the **[Mod or improvement idea form](https://github.com/ender-dev-pl/openfa-preview/issues/new?template=mod-improvement-idea.yml)** to propose new mods, features, or improvements. Describe the motivation, how the idea would work, and whether it preserves original gameplay or should be optional.
+
+Please submit one idea per issue and search existing suggestions first.
 
 ## What is not an issue?
 
