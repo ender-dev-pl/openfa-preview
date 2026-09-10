@@ -1,0 +1,76 @@
+name: Mod or improvement idea
+description: Suggest a new mod, feature, or improvement for openFA.
+title: "[Idea]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Share one idea per issue and search existing issues before submitting.
+
+        Use the Bug report or Legacy fidelity difference form for problems with existing behavior. This form is for new ideas that extend or improve openFA.
+
+        Do not upload original Fragile Allegiance game files or extracted assets.
+
+  - type: dropdown
+    id: idea_type
+    attributes:
+      label: Type of idea
+      options:
+        - Mod or optional gameplay extension
+        - Gameplay improvement
+        - User interface or quality of life
+        - Accessibility
+        - Modding or development tools
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation
+      description: What would this idea improve, and who would benefit from it?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed_behavior
+    attributes:
+      label: Proposed behavior
+      description: Describe how the mod or improvement would work from a player's or mod author's perspective. Include a concrete example if possible.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: legacy_compatibility
+    attributes:
+      label: Relationship to the original game
+      description: openFA aims to faithfully reconstruct Fragile Allegiance. How should this idea fit that goal?
+      options:
+        - Preserves original gameplay and rules
+        - Changes gameplay and should be an optional mod or setting
+        - Not sure or needs discussion
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives
+      description: Describe other approaches or existing workarounds you have considered.
+
+  - type: textarea
+    id: supporting_information
+    attributes:
+      label: Examples and supporting information
+      description: Add relevant links, sketches, or screenshots you have the right to share. Do not attach original game files or extracted assets.
+
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmation
+      options:
+        - label: I searched existing issues for similar ideas.
+          required: true
+        - label: I have not attached original Fragile Allegiance game files or assets.
+          required: true
