@@ -25,6 +25,8 @@ body:
       options:
         - Windows 11
         - Windows 10
+        - Linux
+        - macOS
         - Other or unsupported
     validations:
       required: true
@@ -75,6 +77,24 @@ body:
       label: Logs and supporting information
       description: Paste relevant log excerpts. Remove personal information and local paths when appropriate.
       render: text
+
+  - type: upload
+    id: log_files
+    attributes:
+      label: Log files
+      description: Attach relevant openFA logs when available. Remove personal information and sensitive local paths when appropriate.
+    validations:
+      required: false
+      accept: ".log,.txt,.json,.zip,.gz"
+
+  - type: upload
+    id: savegame
+    attributes:
+      label: Savegame
+      description: Attach an openFA save that reproduces the problem. GitHub does not accept .ofasav or .pofasav directly, so place the save file in a .zip archive before attaching it. Do not attach original Fragile Allegiance SAVEGAME files.
+    validations:
+      required: false
+      accept: ".zip"
 
   - type: upload
     id: screenshots
