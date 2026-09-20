@@ -35,11 +35,12 @@ body:
     id: package_type
     attributes:
       label: Package type
-      description: Select the package variant you downloaded, if known.
+      description: Select the preview package you downloaded, if known.
       options:
         - Self-contained win-x64
-        - Framework-dependent win-x64
-        - Unknown
+        - Self-contained linux-x64
+        - Self-contained osx-arm64
+        - Unknown or custom build
     validations:
       required: true
 
