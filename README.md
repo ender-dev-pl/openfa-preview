@@ -140,13 +140,13 @@ The following versions have been published in this repository. Each link opens i
 | [0.4.2](https://github.com/ender-dev-pl/openfa-preview/releases/tag/0.4.2-dev) | 2026-11-13 | Windows x64, Linux x64, macOS ARM64, Android APK |
 | [0.4.1](https://github.com/ender-dev-pl/openfa-preview/releases/tag/0.4.1-dev) | 2026-11-07 | Windows x64, Linux x64, macOS ARM64, Android APK |
 | [0.3.0](https://github.com/ender-dev-pl/openfa-preview/releases/tag/0.3.0-dev) | 2026-11-03 | See release assets |
-| [0.751.9](https://github.com/ender-dev-pl/openfa-preview/releases/tag/0.751.9-dev) | 2026-10-21 | Historical preview; see release assets |
-| [0.740.1](https://github.com/ender-dev-pl/openfa-preview/releases/tag/0.740.1-dev) | 2026-10-18 | Historical preview; see release assets |
-| [0.658.6](https://github.com/ender-dev-pl/openfa-preview/releases/tag/0.658.6-dev) | 2026-10-07 | Historical preview; see release assets |
-| [0.597.22](https://github.com/ender-dev-pl/openfa-preview/releases/tag/0.597.22-dev) | 2026-09-23 | Historical preview; see release assets |
-| [0.525.2](https://github.com/ender-dev-pl/openfa-preview/releases/tag/0.525.2-dev) | 2026-09-15 | Historical preview; see release assets |
-| [0.495.2](https://github.com/ender-dev-pl/openfa-preview/releases/tag/0.495.2-dev) | 2026-09-13 | Historical preview; see release assets |
-| [0.478.1](https://github.com/ender-dev-pl/openfa-preview/releases/tag/0.478.1-dev) | 2026-09-10 | Historical preview; see release assets |
+| [0.751.9](https://github.com/ender-dev-pl/openfa-preview/releases/tag/old-0.751.9-dev) | 2026-10-21 | Historical preview; see release assets |
+| [0.740.1](https://github.com/ender-dev-pl/openfa-preview/releases/tag/old-0.740.1-dev) | 2026-10-18 | Historical preview; see release assets |
+| [0.658.6](https://github.com/ender-dev-pl/openfa-preview/releases/tag/old-0.658.6-dev) | 2026-10-07 | Historical preview; see release assets |
+| [0.597.22](https://github.com/ender-dev-pl/openfa-preview/releases/tag/old-0.597.22-dev) | 2026-09-23 | Historical preview; see release assets |
+| [0.525.2](https://github.com/ender-dev-pl/openfa-preview/releases/tag/old-0.525.2-dev) | 2026-09-15 | Historical preview; see release assets |
+| [0.495.2](https://github.com/ender-dev-pl/openfa-preview/releases/tag/old-0.495.2-dev) | 2026-09-13 | Historical preview; see release assets |
+| [0.478.1](https://github.com/ender-dev-pl/openfa-preview/releases/tag/old-0.478.1-dev) | 2026-09-10 | Historical preview; see release assets |
 
 The historical `0.xxx.x` previews used an earlier version-numbering scheme and predate the current `0.3.x` and `0.4.x` release lines. All listed GitHub releases are previews.
 
