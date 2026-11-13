@@ -14,7 +14,7 @@ body:
     attributes:
       label: Preview build version
       description: Enter the version displayed by openFA or included in the release name.
-      placeholder: "0.259.1"
+      placeholder: "0.4.1"
     validations:
       required: true
 
@@ -27,7 +27,7 @@ body:
         - Windows 10
         - Linux
         - macOS
-        - Other or unsupported
+        - Android
     validations:
       required: true
 
@@ -40,7 +40,7 @@ body:
         - Self-contained win-x64
         - Self-contained linux-x64
         - Self-contained osx-arm64
-        - Unknown or custom build
+        - Android APK
     validations:
       required: true
 
